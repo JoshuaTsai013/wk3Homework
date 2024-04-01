@@ -2,14 +2,14 @@ import React from 'react';
 import { View } from 'react-native';
 import { Text } from "@gluestack-ui/themed";
 
-const WishlistScreen = () => {
+const WishListScreen = () => {
     return (
     <View style={{flex: 1}}>
         <Text fontSize={30}>
-            This is Wishlist Page
+            This is a WishListScreen
         </Text>              
     </View>
     );
 }
 
-export default WishlistScreen;
+export default WishListScreen;

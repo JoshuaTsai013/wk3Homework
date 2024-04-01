@@ -2,14 +2,14 @@ import React from 'react';
 import { View } from 'react-native';
 import { Text } from "@gluestack-ui/themed";
 
-const SettingsScreen = () => {
+const AccountScreen = () => {
     return (
     <View style={{flex: 1}}>
         <Text fontSize={30}>
-            This is a Setting Page
+            This is a AccountScreen
         </Text>              
     </View>
     );
 }
 
-export default SettingsScreen;
+export default AccountScreen;

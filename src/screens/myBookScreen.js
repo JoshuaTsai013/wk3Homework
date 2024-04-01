@@ -6,7 +6,7 @@ const MyBookScreen = () => {
     return (
     <View style={{flex: 1}}>
         <Text fontSize={30}>
-            This is My Book Page
+            This is a MyBookScreen
         </Text>              
     </View>
     );

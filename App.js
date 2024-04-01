@@ -8,10 +8,10 @@ import { config } from '@gluestack-ui/config';
 
 export default function App() {
   return (
-    <SafeAreaView style={{ flex: 1}}>{/*iphone使用 */}
-        <GluestackUIProvider config={config}>
-          <Navigation />   
-        </GluestackUIProvider>       
+    <SafeAreaView style={{ flex: 1 }}>
+      <GluestackUIProvider config={config}>
+        <Navigation />
+      </GluestackUIProvider>
     </SafeAreaView>
 
   );
